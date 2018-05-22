@@ -3,6 +3,7 @@
 		node MySql  service，data operations ( insert, update, delete,search) 
 		
 	2、接口调用测试：
+		
 		1、 	http://localhost:8095/user/insert?username=test&&email=test
 		
 		2、		http://localhost:8095/user/deleteOne?username=test&&email=test
@@ -16,7 +17,7 @@
 		 
 	4、项目结构：
 	
-		│  list.txt
+		│  
 		│  package-lock.json
 		│  README.md
 		│  server.js
