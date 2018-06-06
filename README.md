@@ -13,7 +13,7 @@
 		
 	2、接口调用测试：
 		
-		1、 http://localhost:8095/user/insert?username=test&&email=test
+		1、	http://localhost:8095/user/insert?username=test&&email=test
 		
 		2、	http://localhost:8095/user/deleteOne?username=test&&email=test
 		
