@@ -13,13 +13,13 @@
 		
 	2、接口调用测试：
 		
-		1、 	http://localhost:8095/user/insert?username=test&&email=test
+		1、 http://localhost:8095/user/insert?username=test&&email=test
 		
-		2、		http://localhost:8095/user/deleteOne?username=test&&email=test
+		2、	http://localhost:8095/user/deleteOne?username=test&&email=test
 		
-		3、		http://localhost:8095/user/update?username=3333&&email=yc@168.com
+		3、	http://localhost:8095/user/update?username=3333&&email=yc@168.com
 		
-		4、		http://localhost:8095/user/search?username=test&&email=test
+		4、	http://localhost:8095/user/search?username=test&&email=test
 	
 	3、express静态文件托管测试：
 		 http://localhost:8095/static/img/bird.jpg 
