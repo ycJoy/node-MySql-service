@@ -1,4 +1,13 @@
 # node-MySql-service
+	项目安装及运行
+	
+	# 安装项目依赖
+	npm install
+
+	# 启动服务 
+	node server.js
+	
+	
 	1、Node+Express 搭建本地接口服务器,接口提供MySql数据库增删改查功能
 		node MySql  service，data operations ( insert, update, delete,search) 
 		
@@ -16,26 +25,18 @@
 		 http://localhost:8095/static/img/bird.jpg 
 		 
 	4、项目结构：
-	
-		│  
-		│  package-lock.json
-		│  README.md
-		│  server.js
-		│  
-		├─model
-		│      sqlAction.js
-		│ 
-		│ 
-		├─node_modules     
-		│  
-		│         
-		├─public
-		│  └─img
-		│          bird.jpg
-		│          chicken.jpg
-		│          fish.jpg
-		│          
-		└─route
-			sqlRoute.js
-
-	
+		node-MySql-service
+		
+		├─ README.md
+		├─ model
+		│    └─ sqlAction.js
+		├─ package-lock.json
+		├─ package.json
+		├─ public
+		│    └─ img
+		│           ├─ bird.jpg
+		│           ├─ chicken.jpg
+		│           └─ fish.jpg
+		├─ route
+		│    └─ sqlRoute.js
+		└─ server.js
